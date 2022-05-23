@@ -1,0 +1,35 @@
+.navBar {
+    justify-content: space-between;
+}
+span {
+    padding-right: 1rem;
+    /* background: #ffffff; */
+}
+.input-bkg {
+    background: #ffffff;
+    color: black;
+    font-weight: 100;
+    padding-left: 0.4rem;
+    font-size: 12px;
+    font-style: italic;
+    height: 35px;
+
+}
+.d-flex {
+    display: flex;
+    justify-content:space-around;
+    /* flex-direction: column; */
+  
+
+
+}
+
+/* ::ng-deep .mat-input-element::placeholder {
+
+    color:black!important;
+    font-weight: 500;
+  } */
+/* .input-placeholder {
+    color: black;
+
+} */

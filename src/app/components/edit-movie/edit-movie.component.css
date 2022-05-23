@@ -1,0 +1,99 @@
+::ng-deep .mat-dialog-container {
+  background: #ffff;
+  color: black;
+
+}
+
+.content {
+  width: 250px;
+}
+
+.mat-form-field {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+
+}
+
+::ng-deep .mat-form-field-infix {
+  width: 200px;
+}
+
+::ng-deep .mat-checkbox-inner-container {
+  border: 1px solid black;
+}
+
+.custom-minutes-input {
+  /* width: 60% !important */
+  margin-left: 1.4rem;
+
+}
+
+.custom-start-input {
+
+  margin-left: 0.8rem;
+}
+
+.custom-end-input {
+
+  margin-left: 1.3rem;
+}
+
+.custom-genres-input {
+
+  margin-left: 2rem;
+}
+
+.example-section2 input {
+  border: 1px solid black;
+  width: 60%;
+  /* margin-left: 0.8rem; */
+}
+
+.d-flex {
+  display: flex;
+
+  justify-content: center;
+}
+
+.title>img {
+
+  position: relative;
+  top: -36px;
+  left: 250px;
+}
+
+.title {
+  /* text-align: center;
+    display: inline-block; */
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.example-section {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.example-margin {
+  margin: 0 10px;
+}
+
+.content button {
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+  width: 40%;
+
+}
+
+.content .button-ok {
+  background: linear-gradient(#000000, #494848);
+  ;
+}
+
+.content .button-cancel {
+  background-color: #9b9b9b;
+}

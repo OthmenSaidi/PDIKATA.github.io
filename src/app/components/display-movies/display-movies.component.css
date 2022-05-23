@@ -1,0 +1,31 @@
+.movie-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.movie-item {
+    /* flex-basis: 30%; */
+    width: 30%
+}
+
+
+@media (max-width: 576px) {
+    .movie-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .movie-item {
+        width: 90%;
+    }
+
+}
+
+@media (min-width:577px) and (max-width: 992px) {
+
+    .movie-item {
+        flex-basis: 50%;
+    }
+
+}

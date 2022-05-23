@@ -1,0 +1,27 @@
+<mat-toolbar color="" class="navBar">
+  <div class="d-flex">
+    <span><img src="../../../assets/icons/logo.svg" alt="logo" height="25px"></span>
+    <span>
+
+      <mat-form-field class="input-bkg ">
+        <!-- <mat-label></mat-label> -->
+        <input i18n-placeholder matInput class="input-placeholder" placeholder=" Search a movie..." #filterInput>
+        <mat-icon matSuffix><img src="../../../assets/icons/icon_magnify.svg" alt="icon_search" height="10px"
+            (click)="getTitle(filterInput.value)"> </mat-icon>
+        <!-- <img src="../../../assets/icons/icon_magnify.svg" alt=""> -->
+      </mat-form-field>
+
+    </span>
+  </div>
+  <div class="d-flex">
+    <span>
+      <a href="/fr"> <img src="../../../assets/icons/flag_fr.svg" alt=""></a>
+
+    </span>
+    <span>
+      <a href="/"><img src="../../../assets/icons/flag_usa.svg" alt=""> </a>
+    </span>
+
+  </div>
+
+</mat-toolbar>

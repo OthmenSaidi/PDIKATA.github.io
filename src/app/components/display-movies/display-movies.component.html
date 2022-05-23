@@ -1,0 +1,16 @@
+<app-header (filterTitleEvent)="OnGetMoviesByTitle($event)"></app-header>
+
+
+
+<div class="movie-result" *ngIf="this.results">
+
+    <app-card-movie *ngFor="let result of results" class="movie-item" [movie]="result"
+        (editEventEmitter)="OnEditMovie()"></app-card-movie>
+
+</div>
+<div class="movie-list" *ngIf="!this.results">
+
+    <app-card-movie *ngFor="let movie of movies" class="movie-item" [movie]="movie" (editEventEmitter)="OnEditMovie()">
+    </app-card-movie>
+
+</div>

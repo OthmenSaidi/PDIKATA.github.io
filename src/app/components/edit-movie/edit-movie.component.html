@@ -1,0 +1,59 @@
+<div class="content">
+    <div class="title d-flex" i18n>
+        Editing
+    </div>
+
+    <div class="title">
+        <img src="../../../assets/icons/X_icon .svg" alt="">
+
+    </div>
+
+
+    <section class="example-section">
+        <label i18n>Is adult</label>
+        <mat-checkbox class="example-margin" i18n>Yes</mat-checkbox>
+        <mat-checkbox class="example-margin" i18n>No</mat-checkbox>
+    </section>
+
+    <section class="example-section2">
+        <!-- <mat-label>Minutes</mat-label> -->
+        <mat-form-field>
+            <label for="" i18n>Minutes</label>
+            <input matInput placeholder="" class="custom-minutes-input" value="">
+
+        </mat-form-field>
+    </section>
+    <section class="example-section2">
+        <!-- <mat-label>Start Year</mat-label> -->
+        <mat-form-field>
+            <label for="" i18n>Start year</label>
+            <input matInput placeholder="" class="custom-start-input" value="">
+
+        </mat-form-field>
+    </section>
+    <section class="example-section2">
+        <!-- <mat-label>End year</mat-label> -->
+        <mat-form-field>
+            <label for="" i18n>End year</label>
+            <input matInput placeholder="" class="custom-end-input" value="">
+
+        </mat-form-field>
+    </section>
+    <section class="example-section2">
+        <!-- <mat-label>Genres</mat-label> -->
+        <mat-form-field>
+            <label for="">Genres</label>
+            <input matInput placeholder="" class="custom-genres-input" value="">
+
+        </mat-form-field>
+    </section>
+    <mat-dialog-actions align="center">
+
+        <button mat-button class="button-ok" [mat-dialog-close]="true" cdkFocusInitial i18n>Ok</button>
+        <button mat-button class="button-cancel" mat-dialog-close i18n>Cancel</button>
+    </mat-dialog-actions>
+
+
+
+
+</div>
